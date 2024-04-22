@@ -1,12 +1,14 @@
-import React from 'react'
-import Header from '../../components/Header'
+import React from "react";
+import Header from "../../components/Header";
+import Intro from "../../components/Intro";
 
 function Home() {
   return (
-    <div>
-      <Header/>
+    <div className="bg-color3 px-40">
+      <Header />
+      <Intro />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
