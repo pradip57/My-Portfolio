@@ -1,12 +1,16 @@
 import React from "react";
 import Header from "../../components/Header";
 import Intro from "../../components/Intro";
+import About from "../../components/About";
 
 function Home() {
   return (
-    <div className="bg-color3 px-40">
+    <div>
       <Header />
-      <Intro />
+      <div className="bg-color3 px-40">
+        <Intro />
+        <About />
+      </div>
     </div>
   );
 }
